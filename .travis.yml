@@ -9,3 +9,4 @@ addons:
   postgresql: "8.5.1"
 before_script:
   - psql -c "CREATE DATABASE testing_db;" -U postgres
+  - node __test__/server.js
