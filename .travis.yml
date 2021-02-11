@@ -1,6 +1,4 @@
 language: node_js
 node_js:
   - "12"
-before_install:
-  - npm i -g npm@12.19.0
 cache: npm
